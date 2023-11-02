@@ -6,4 +6,3 @@ city = input("Enter the name of your city you grew up: \n")
 pet = input("Enter the name of your pet you love:\n")
 #4. Combine the name of their city and pet and show them their band name.
 print("Your brand name is: " + city + " " + pet)
-#5. Make sure the input cursor shows on a new line:
