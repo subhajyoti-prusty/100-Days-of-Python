@@ -1,5 +1,5 @@
 # Take a two digit number as input. Write the code such as it will give the output as the sum of both the digits of the number 
-two_digit_number = input(55)
+two_digit_number = input("Type a two digit number: ")
 
 #             Method 1
 # new_number = str(two_digit_number)
@@ -11,8 +11,13 @@ two_digit_number = input(55)
 # print(Sum)
 
 #             Method 2
+
 print(type(two_digit_number))
+
 first_digit = int(two_digit_number[0])
+
 second_digit = int(two_digit_number[1])
+
 sum = first_digit + second_digit
+
 print(sum)

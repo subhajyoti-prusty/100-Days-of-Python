@@ -5,7 +5,7 @@
 # My code 
 print("Enter the total amount of the bill: ")
 Bill_amount = int(input())
-print("Enter tip amount: ")
+print("Enter the percentage of tip amount: ")
 tip = int(input())
 print("Enter the number of people: ")
 people = int(input())
