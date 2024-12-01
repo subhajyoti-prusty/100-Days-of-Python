@@ -5498,3 +5498,27 @@ print(len(large_list_of_lists[0]))  # Should print 1000
 
 n = 10**6  # Number of keys
 m = 10**3  # Number of elements in each list
+
+import pandas as pd
+
+n = 10**6  # Number of rows
+m = 10**2  # Number of columns
+
+large_dataframe = pd.DataFrame([[0]*m for _ in range(n)])
+
+# To verify the size
+print(large_dataframe.shape)  # Should print (1000000, 100)
+
+# Generate python codes with hight space complexity
+
+n = 10**6  # Number of inner lists
+m = 10**3  # Number of elements in each inner list
+
+large_list_of_lists = [[0] * m for _ in range(n)]
+
+# To verify the size
+print(len(large_list_of_lists))  # Should print 1000000
+print(len(large_list_of_lists[0]))  # Should print 1000
+
+n = 10**6  # Number of keys
+m = 10**3  # Number of elements in each list
